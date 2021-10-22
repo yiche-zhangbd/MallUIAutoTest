@@ -1,0 +1,86 @@
+{
+    "case_name": "test_case_01",
+    "run_time": "20211022 16:11:02",
+    "test_type": "DemoTest",
+    "case_doc": null,
+    "success": true,
+    "failures": "",
+    "errors": "",
+    "start_timestamp": 1634890262.9137533,
+    "is_failure": false,
+    "is_error": false,
+    "module": "C:.Users.zhangbd.Desktop.BitAuto.Projects.MallUIAutoTest.Demo",
+    "package": "Demo",
+    "failed_line_num": -1,
+    "device": {
+        "system_info": {
+            "model": "iPhone 12 Pro Max",
+            "pixelRatio": 3,
+            "windowWidth": 428,
+            "windowHeight": 926,
+            "system": "iOS 10.0.1",
+            "language": "zh_CN",
+            "version": "8.0.5",
+            "screenWidth": 428,
+            "screenHeight": 926,
+            "SDKVersion": "2.17.0",
+            "brand": "devtools",
+            "fontSizeSetting": 16,
+            "benchmarkLevel": 1,
+            "batteryLevel": 34,
+            "statusBarHeight": 47,
+            "safeArea": {
+                "top": 44,
+                "left": 0,
+                "right": 428,
+                "bottom": 892,
+                "width": 428,
+                "height": 848
+            },
+            "deviceOrientation": "portrait",
+            "platform": "devtools",
+            "enableDebug": false,
+            "devicePixelRatio": 3
+        }
+    },
+    "log_filename": "test_case_01.log",
+    "error_type": "",
+    "error_value": "",
+    "screen_info": [
+        {
+            "name": "setup",
+            "url": "/page_ji_shi/qiangDan/qiangDan",
+            "path": "images\\setup.png",
+            "ts": 1634890319,
+            "datetime": "2021-10-22 16:11:59"
+        },
+        {
+            "name": "teardown",
+            "url": "/store/index/index",
+            "path": "images\\teardown.png",
+            "ts": 1634890424,
+            "datetime": "2021-10-22 16:13:44"
+        }
+    ],
+    "check_list": [],
+    "assert_list": [],
+    "perf_data": "{\"startup\": 0, \"avg_cpu\": 0, \"max_cpu\": 0, \"cpu_data_list\": [], \"avg_mem\": 0, \"max_mem\": 0, \"mem_data_list\": [], \"avg_fps\": 0, \"min_fps_rt\": 0, \"fps_data_list\": [], \"fps_time_series_list\": [], \"cpu_time_series_list\": [], \"mem_time_series_list\": []}",
+    "weapp_log_path": "weapp.log",
+    "request_log_path": "request.log",
+    "page_data": {
+        "storeUrl": "http://cbop.yichehuoban.cn/test-direct/?timetap=1634890423790#/general/goodslist?clearMallAddress=2&roleType=2&token=C9325A2CBBD81B5AD5AA5E5DDF9F6735",
+        "userType": "JS"
+    },
+    "stop_timestamp": 1634890424.840907,
+    "appId": "wx1081577a84fd8742",
+    "appName": "\u8f66\u6280\u4e0d\u9519",
+    "source": {
+        "code": [
+            "    def test_case_01(self):\n",
+            "        self.page.wait_for(30)\n",
+            "        self.page.get_element('view', inner_text='\u5546\u57ce').click()\n"
+        ],
+        "start": 9
+    },
+    "filename": "test_case_01.json"
+}

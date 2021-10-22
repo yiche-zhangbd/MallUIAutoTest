@@ -1,0 +1,67 @@
+{
+    "case_name": "test_case_01",
+    "run_time": "20211022 15:29:50",
+    "test_type": "DemoTest",
+    "case_doc": null,
+    "success": false,
+    "failures": "",
+    "errors": "Traceback (most recent call last):\n  File \"D:\\Python\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n  File \"D:\\Python\\lib\\site-packages\\minium-1.2.1-py3.9.egg\\minium\\framework\\libs\\unittest\\case.py\", line 73, in run\n    self._miniSetUp()\n  File \"D:\\Python\\lib\\site-packages\\minium-1.2.1-py3.9.egg\\minium\\framework\\minitest.py\", line 666, in _miniSetUp\n    self.capture(\"setup\")\n  File \"D:\\Python\\lib\\site-packages\\minium-1.2.1-py3.9.egg\\minium\\framework\\minitest.py\", line 899, in capture\n    self.native.screen_shot(path)\n  File \"D:\\Python\\lib\\site-packages\\minium-1.2.1-py3.9.egg\\minium\\native\\wx_native\\idenative.py\", line 28, in screen_shot\n    self.mini.app.screen_shot(filename, return_format)\n  File \"D:\\Python\\lib\\site-packages\\minium-1.2.1-py3.9.egg\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"D:\\Python\\lib\\site-packages\\minium-1.2.1-py3.9.egg\\minium\\miniprogram\\base_driver\\app.py\", line 131, in screen_shot\n    b64_data = self.connection.send(\"App.captureScreenshot\").get(\"result\").get(\"data\")\n  File \"D:\\Python\\lib\\site-packages\\minium-1.2.1-py3.9.egg\\minium\\miniprogram\\base_driver\\connection.py\", line 185, in send\n    return self._receive_response(cmd)\n  File \"D:\\Python\\lib\\site-packages\\minium-1.2.1-py3.9.egg\\minium\\miniprogram\\base_driver\\connection.py\", line 214, in _receive_response\n    raise MiniTimeoutError(\nminium.framework.exception.MiniTimeoutError: [call App.captureScreenshot] receive from remote timeout, id: f4fbd53e-0ed1-4dbc-b11f-cfd8479bb787\n",
+    "start_timestamp": 1634887790.0425391,
+    "is_failure": false,
+    "is_error": true,
+    "module": "C:.Users.zhangbd.Desktop.BitAuto.Projects.MallUIAutoTest.Demo",
+    "package": "Demo",
+    "failed_line_num": -1,
+    "device": {
+        "system_info": {
+            "model": "iPhone 12 Pro Max",
+            "pixelRatio": 3,
+            "windowWidth": 428,
+            "windowHeight": 926,
+            "system": "iOS 10.0.1",
+            "language": "zh_CN",
+            "version": "8.0.5",
+            "screenWidth": 428,
+            "screenHeight": 926,
+            "SDKVersion": "2.17.0",
+            "brand": "devtools",
+            "fontSizeSetting": 16,
+            "benchmarkLevel": 1,
+            "batteryLevel": 61,
+            "statusBarHeight": 47,
+            "safeArea": {
+                "top": 44,
+                "left": 0,
+                "right": 428,
+                "bottom": 892,
+                "width": 428,
+                "height": 848
+            },
+            "deviceOrientation": "portrait",
+            "platform": "devtools",
+            "enableDebug": false,
+            "devicePixelRatio": 3
+        }
+    },
+    "log_filename": "test_case_01.log",
+    "error_type": "MiniTimeoutError",
+    "error_value": "[call App.captureScreenshot] receive from remote timeout, id: f4fbd53e-0ed1-4dbc-b11f-cfd8479bb787",
+    "screen_info": [],
+    "check_list": [],
+    "assert_list": [],
+    "weapp_log_path": "weapp.log",
+    "request_log_path": "request.log",
+    "page_data": null,
+    "stop_timestamp": 1634887916.1233816,
+    "appId": "wx1081577a84fd8742",
+    "appName": "\u8f66\u6280\u4e0d\u9519",
+    "source": {
+        "code": [
+            "    def test_case_01(self):\n",
+            "        self.page.element_is_exists(10)\n",
+            "        self.page.get_element(value='\u5546\u57ce').click()\n"
+        ],
+        "start": 9
+    },
+    "filename": "test_case_01.json"
+}

@@ -1,0 +1,39 @@
+DEBUG 2021-10-22 15:42:05,953 minitest.py _miniSetUp      655 =========Current case：test_case_01=========
+INFO  2021-10-22 15:42:05,954 app.py     relaunch        301 ReLaunch: /commonPage/logo/logo
+DEBUG 2021-10-22 15:42:05,955 connection.py send            183 SEND > {"id":"5994e9b1-12f5-41b7-a7ea-5772c6391476","method":"App.callWxMethod","params":{"method":"reLaunch","args":[{"url":"/commonPage/logo/logo"}]}}
+DEBUG 2021-10-22 15:42:06,031 connection.py _on_message     232 RECV < {"id":"5994e9b1-12f5-41b7-a7ea-5772c6391476","result":{"result":{"errMsg":"reLaunch:ok"}}}
+DEBUG 2021-10-22 15:42:10,711 connection.py _on_message     232 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":5,"path":"page_ji_shi/qiangDan/qiangDan","query":{},"openType":"switchTab"},1634888530707]}}
+INFO  2021-10-22 15:42:10,713 app.py     _on_route_changed 446 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 5, 'path': 'page_ji_shi/qiangDan/qiangDan', 'query': {}, 'openType': 'switchTab'}, 1634888530707]}
+WARNI 2021-10-22 15:42:10,713 app.py     relaunch        304 ReLaunch(/commonPage/logo/logo) but(/page_ji_shi/qiangDan/qiangDan)
+INFO  2021-10-22 15:42:10,717 minitest.py capture         898 capture setup.png
+DEBUG 2021-10-22 15:42:10,718 connection.py send            183 SEND > {"id":"07a07539-64c1-48f9-96aa-9d5cc2924d5b","method":"App.captureScreenshot","params":{}}
+DEBUG 2021-10-22 15:43:03,472 connection.py _on_message     232 RECV < {"method":"App.initialized","params":{}}
+DEBUG 2021-10-22 15:43:11,451 minitest.py _miniTearDown   862 =========Current case Down：test_case_01=========
+INFO  2021-10-22 15:43:11,454 minitest.py capture         898 capture teardown.png
+DEBUG 2021-10-22 15:43:11,455 connection.py send            183 SEND > {"id":"eb59c2ed-9708-4d10-b0d1-9a7d848c7fc3","method":"App.captureScreenshot","params":{}}
+DEBUG 2021-10-22 15:43:11,758 connection.py _on_message     230 RECV < {"id":"eb59c2ed-9708-4d10-b0d1-9a7d848c7fc3","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAhcAAASGCAIAAAAVURvDAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvfeTHEeW5/mee0SkFqWroAFCA4QGSIIgQYJNTTbZYqZ7pmevZ3duz+zM1s7ut/sLzu5+Xbu1tbO7vRvd0z0tyFYkQdUkQQWA0LIgCqVQhdJVqUO4+/0QmZGhMquQKLJnbvzTbFRmhIer8Hjf5yoSD//Vd0EikUgkkpYgf+wMSCQSieRfMVJFJBKJRNI6UkUkEolE0jpSRSQSiUTSOlJFJBKJRNI6UkUkEolE0jpSRSQSiUTSOlJFJBKJRNI6UkUkEolE0jpSRSQSiUTSOlJFJBKJRNI6UkUkEolE0jpSRSQSiUTSOlJFJBKJRNI6UkUkEolE0jpSRSQSiUTSOlJFJBKJRNI6UkUkEolE0jpSRSQSiUTSOl...
+DEBUG 2021-10-22 15:43:11,780 connection.py send            183 SEND > {"id":"6d1628e0-d7e3-4c27-ae17-aacb668e3472","method":"App.getCurrentPage","params":{}}
+DEBUG 2021-10-22 15:43:11,787 connection.py _on_message     232 RECV < {"id":"6d1628e0-d7e3-4c27-ae17-aacb668e3472","result":{"pageId":6,"path":"page_ji_shi/qiangDan/qiangDan","query":{}}}
+DEBUG 2021-10-22 15:43:11,789 connection.py send            183 SEND > {"id":"c342f84c-7f4a-4814-8490-59af7eeb4169","method":"Page.getData","params":{"pageId":6}}
+DEBUG 2021-10-22 15:43:11,805 connection.py _on_message     230 RECV < {"id":"c342f84c-7f4a-4814-8490-59af7eeb4169","result":{"data":{"jishiInfo":{"id":3049,"cuUserPhoneNumBindId":7893,"wxAppUserInfoPhoneNumber":"13552219960","wxAppUserInfoNickName":"","avatarUrl":"","avatarCheckState":-9,"serviceQualityLevel":3,"serviceCommentStarLevel":0,"contactName":"王甡","contactPhoneNumber":"13552219960","idCardNum":"370103198107134012","cityId":201,"cityName":"北京","snatchOrderRegionIdList":null,"isShowAllCity":true,"enableSnatchOrder":1,"hasAgreeWithTheProtocol":1,"skillExamStateColle...
+ERROR 2021-10-22 15:43:11,825 assertbase.py _teardown_collect 265 <bound method DemoTest.test_case_01 of <Demo.DemoTest testMethod=test_case_01>>
+Traceback (most recent call last):
+  File "D:\Python\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "D:\Python\lib\site-packages\minium-1.2.1-py3.9.egg\minium\framework\libs\unittest\case.py", line 73, in run
+    self._miniSetUp()
+  File "D:\Python\lib\site-packages\minium-1.2.1-py3.9.egg\minium\framework\minitest.py", line 666, in _miniSetUp
+    self.capture("setup")
+  File "D:\Python\lib\site-packages\minium-1.2.1-py3.9.egg\minium\framework\minitest.py", line 899, in capture
+    self.native.screen_shot(path)
+  File "D:\Python\lib\site-packages\minium-1.2.1-py3.9.egg\minium\native\wx_native\idenative.py", line 28, in screen_shot
+    self.mini.app.screen_shot(filename, return_format)
+  File "D:\Python\lib\site-packages\minium-1.2.1-py3.9.egg\minium\miniprogram\base_driver\minium_log.py", line 135, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\Python\lib\site-packages\minium-1.2.1-py3.9.egg\minium\miniprogram\base_driver\app.py", line 131, in screen_shot
+    b64_data = self.connection.send("App.captureScreenshot").get("result").get("data")
+  File "D:\Python\lib\site-packages\minium-1.2.1-py3.9.egg\minium\miniprogram\base_driver\connection.py", line 185, in send
+    return self._receive_response(cmd)
+  File "D:\Python\lib\site-packages\minium-1.2.1-py3.9.egg\minium\miniprogram\base_driver\connection.py", line 214, in _receive_response
+    raise MiniTimeoutError(
+minium.framework.exception.MiniTimeoutError: [call App.captureScreenshot] receive from remote timeout, id: 07a07539-64c1-48f9-96aa-9d5cc2924d5b

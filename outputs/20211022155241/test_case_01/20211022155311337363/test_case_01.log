@@ -1,0 +1,34 @@
+DEBUG 2021-10-22 15:53:11,344 minitest.py _miniSetUp      655 =========Current case：test_case_01=========
+INFO  2021-10-22 15:53:11,349 app.py     relaunch        301 ReLaunch: /commonPage/logo/logo
+DEBUG 2021-10-22 15:53:11,350 connection.py send            183 SEND > {"id":"d05c4d84-3919-4880-aa3f-6013e569f9ff","method":"App.callWxMethod","params":{"method":"reLaunch","args":[{"url":"/commonPage/logo/logo"}]}}
+DEBUG 2021-10-22 15:53:11,412 connection.py _on_message     232 RECV < {"id":"d05c4d84-3919-4880-aa3f-6013e569f9ff","result":{"result":{"errMsg":"reLaunch:ok"}}}
+DEBUG 2021-10-22 15:53:12,426 connection.py _on_message     232 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":5,"path":"commonPage/logo/logo","query":{},"openType":"reLaunch"},1634889192253]}}
+INFO  2021-10-22 15:53:12,435 app.py     _on_route_changed 446 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 5, 'path': 'commonPage/logo/logo', 'query': {}, 'openType': 'reLaunch'}, 1634889192253]}
+INFO  2021-10-22 15:53:12,437 minitest.py capture         898 capture setup.png
+DEBUG 2021-10-22 15:53:12,437 connection.py send            183 SEND > {"id":"b1682ff3-dd91-41e3-b129-49078306d3ae","method":"App.captureScreenshot","params":{}}
+DEBUG 2021-10-22 15:53:12,568 connection.py _on_message     230 RECV < {"id":"b1682ff3-dd91-41e3-b129-49078306d3ae","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAhcAAAQUCAIAAABF/6yLAAAAAXNSR0IArs4c6QAADmhJREFUeJzt1bEJACEAwEB1/3EtbITfIY083E2QLnOfOwAgWa8DAPgxFwGgcxEAOhcBoHMRADoXAaBzEQA6FwGgcxEAOhcBoHMRADoXAaBzEQA6FwGgcxEAOhcBoHMRADoXAaBzEQA6FwGgcxEAOhcBoHMRADoXAaBzEQA6FwGgcxEAOhcBoHMRADoXAaBzEQA6FwGgcxEAOhcBoHMRADoXAaBzEQA6FwGgcxEAOhcBoHMRADoXAaBzEQA6FwGgcxEAOhcBoHMRADoXAaBzEQA6FwGgcxEAOhcBoHMRADoXAaBzEQA6FwGgcxEAOhcBoHMRADoXAaBzEQA6FwGgcxEAOhcBoHMRADoXAaBzEQA6FwGgcxEAOhcBoHMRAD...
+DEBUG 2021-10-22 15:53:12,570 connection.py send            183 SEND > {"id":"26fa4a42-40ec-4151-baf4-b629c5c5b5f5","method":"App.getCurrentPage","params":{}}
+DEBUG 2021-10-22 15:53:12,578 connection.py _on_message     232 RECV < {"id":"26fa4a42-40ec-4151-baf4-b629c5c5b5f5","result":{"pageId":5,"path":"commonPage/logo/logo","query":{}}}
+DEBUG 2021-10-22 15:53:12,579 minitest.py _miniTearDown   862 =========Current case Down：test_case_01=========
+INFO  2021-10-22 15:53:12,586 minitest.py capture         898 capture teardown.png
+DEBUG 2021-10-22 15:53:12,587 connection.py send            183 SEND > {"id":"4e065a29-d3a4-46fe-aabf-fbd8373a0f06","method":"App.captureScreenshot","params":{}}
+DEBUG 2021-10-22 15:53:12,667 connection.py _on_message     230 RECV < {"id":"4e065a29-d3a4-46fe-aabf-fbd8373a0f06","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAhcAAAQUCAIAAABF/6yLAAAAAXNSR0IArs4c6QAADmhJREFUeJzt1bEJACEAwEB1/3EtbITfIY083E2QLnOfOwAgWa8DAPgxFwGgcxEAOhcBoHMRADoXAaBzEQA6FwGgcxEAOhcBoHMRADoXAaBzEQA6FwGgcxEAOhcBoHMRADoXAaBzEQA6FwGgcxEAOhcBoHMRADoXAaBzEQA6FwGgcxEAOhcBoHMRADoXAaBzEQA6FwGgcxEAOhcBoHMRADoXAaBzEQA6FwGgcxEAOhcBoHMRADoXAaBzEQA6FwGgcxEAOhcBoHMRADoXAaBzEQA6FwGgcxEAOhcBoHMRADoXAaBzEQA6FwGgcxEAOhcBoHMRADoXAaBzEQA6FwGgcxEAOhcBoHMRADoXAaBzEQA6FwGgcxEAOhcBoHMRAD...
+DEBUG 2021-10-22 15:53:12,669 connection.py send            183 SEND > {"id":"b1ca74f7-aadd-43be-8776-5218a7cae134","method":"App.getCurrentPage","params":{}}
+DEBUG 2021-10-22 15:53:12,672 connection.py _on_message     232 RECV < {"id":"b1ca74f7-aadd-43be-8776-5218a7cae134","result":{"pageId":5,"path":"commonPage/logo/logo","query":{}}}
+DEBUG 2021-10-22 15:53:12,674 connection.py send            183 SEND > {"id":"5839588d-73e1-43b3-a3e1-d9e703a8f424","method":"Page.getData","params":{"pageId":5}}
+DEBUG 2021-10-22 15:53:12,677 connection.py _on_message     232 RECV < {"id":"5839588d-73e1-43b3-a3e1-d9e703a8f424","result":{"data":{}}}
+ERROR 2021-10-22 15:53:12,688 assertbase.py _teardown_collect 265 <bound method DemoTest.test_case_01 of <Demo.DemoTest testMethod=test_case_01>>
+Traceback (most recent call last):
+  File "D:\Python\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "D:\Python\lib\site-packages\minium-1.2.1-py3.9.egg\minium\framework\libs\unittest\case.py", line 80, in run
+    self._callTestMethod(testMethod)
+  File "D:\Python\lib\unittest\case.py", line 550, in _callTestMethod
+    method()
+  File "C:\Users\zhangbd\Desktop\BitAuto\Projects\MallUIAutoTest\Demo.py", line 10, in test_case_01
+    self.page.element_is_exists()
+  File "D:\Python\lib\site-packages\minium-1.2.1-py3.9.egg\minium\miniprogram\base_driver\minium_log.py", line 135, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\Python\lib\site-packages\minium-1.2.1-py3.9.egg\minium\miniprogram\base_driver\page.py", line 154, in element_is_exists
+    if selector.startswith("/"):
+AttributeError: 'NoneType' object has no attribute 'startswith'

@@ -1,0 +1,1036 @@
+{
+    "version": 2,
+    "task_datas": [
+        {
+            "case_datas": [
+                {
+                    "case_name": "test_case_01",
+                    "run_time": "20211022 16:11:02",
+                    "test_type": "DemoTest",
+                    "case_doc": null,
+                    "success": true,
+                    "failures": "",
+                    "errors": "",
+                    "start_timestamp": 1634890262.9137533,
+                    "is_failure": false,
+                    "is_error": false,
+                    "module": "C:.Users.zhangbd.Desktop.BitAuto.Projects.MallUIAutoTest.Demo",
+                    "package": "Demo",
+                    "failed_line_num": -1,
+                    "device": {
+                        "system_info": {
+                            "model": "iPhone 12 Pro Max",
+                            "pixelRatio": 3,
+                            "windowWidth": 428,
+                            "windowHeight": 926,
+                            "system": "iOS 10.0.1",
+                            "language": "zh_CN",
+                            "version": "8.0.5",
+                            "screenWidth": 428,
+                            "screenHeight": 926,
+                            "SDKVersion": "2.17.0",
+                            "brand": "devtools",
+                            "fontSizeSetting": 16,
+                            "benchmarkLevel": 1,
+                            "batteryLevel": 34,
+                            "statusBarHeight": 47,
+                            "safeArea": {
+                                "top": 44,
+                                "left": 0,
+                                "right": 428,
+                                "bottom": 892,
+                                "width": 428,
+                                "height": 848
+                            },
+                            "deviceOrientation": "portrait",
+                            "platform": "devtools",
+                            "enableDebug": false,
+                            "devicePixelRatio": 3
+                        }
+                    },
+                    "log_filename": "test_case_01.log",
+                    "error_type": "",
+                    "error_value": "",
+                    "screen_info": [
+                        {
+                            "name": "setup",
+                            "url": "/page_ji_shi/qiangDan/qiangDan",
+                            "path": "images\\setup.png",
+                            "ts": 1634890319,
+                            "datetime": "2021-10-22 16:11:59"
+                        },
+                        {
+                            "name": "teardown",
+                            "url": "/store/index/index",
+                            "path": "images\\teardown.png",
+                            "ts": 1634890424,
+                            "datetime": "2021-10-22 16:13:44"
+                        }
+                    ],
+                    "check_list": [],
+                    "assert_list": [],
+                    "perf_data": "{\"startup\": 0, \"avg_cpu\": 0, \"max_cpu\": 0, \"cpu_data_list\": [], \"avg_mem\": 0, \"max_mem\": 0, \"mem_data_list\": [], \"avg_fps\": 0, \"min_fps_rt\": 0, \"fps_data_list\": [], \"fps_time_series_list\": [], \"cpu_time_series_list\": [], \"mem_time_series_list\": []}",
+                    "weapp_log_path": "weapp.log",
+                    "request_log_path": "request.log",
+                    "page_data": {
+                        "storeUrl": "http://cbop.yichehuoban.cn/test-direct/?timetap=1634890423790#/general/goodslist?clearMallAddress=2&roleType=2&token=C9325A2CBBD81B5AD5AA5E5DDF9F6735",
+                        "userType": "JS"
+                    },
+                    "stop_timestamp": 1634890424.840907,
+                    "appId": "wx1081577a84fd8742",
+                    "appName": "\u8f66\u6280\u4e0d\u9519",
+                    "source": {
+                        "code": [
+                            "    def test_case_01(self):\n",
+                            "        self.page.wait_for(30)\n",
+                            "        self.page.get_element('view', inner_text='\u5546\u57ce').click()\n"
+                        ],
+                        "start": 9
+                    },
+                    "filename": "test_case_01.json",
+                    "relative": "20211022161058\\test_case_01\\20211022161102908764",
+                    "costs": "02\u5206\u949f41\u79d2"
+                }
+            ],
+            "summary": {
+                "case_num": 1,
+                "success": 1,
+                "failed": 0,
+                "error": 0,
+                "costs": "02\u5206\u949f41\u79d2",
+                "start_time": "2021/10/22 16:11:02",
+                "end_time": "2021/10/22 16:13:44",
+                "detail": [
+                    {
+                        "name": "Demo",
+                        "case_num": 1,
+                        "success": 1,
+                        "failed": 0,
+                        "error": 0,
+                        "start_time": "2021/10/22 16:11:02",
+                        "end_time": "2021/10/22 16:13:44",
+                        "costs": "02\u5206\u949f41\u79d2"
+                    }
+                ]
+            }
+        },
+        {
+            "case_datas": [
+                {
+                    "case_name": "test_case_01",
+                    "run_time": "20211022 16:02:48",
+                    "test_type": "DemoTest",
+                    "case_doc": null,
+                    "success": true,
+                    "failures": "",
+                    "errors": "",
+                    "start_timestamp": 1634889768.7757814,
+                    "is_failure": false,
+                    "is_error": false,
+                    "module": "C:.Users.zhangbd.Desktop.BitAuto.Projects.MallUIAutoTest.Demo",
+                    "package": "Demo",
+                    "failed_line_num": -1,
+                    "device": {
+                        "system_info": {
+                            "model": "iPhone 12 Pro Max",
+                            "pixelRatio": 3,
+                            "windowWidth": 428,
+                            "windowHeight": 835,
+                            "system": "iOS 10.0.1",
+                            "language": "zh_CN",
+                            "version": "8.0.5",
+                            "screenWidth": 428,
+                            "screenHeight": 926,
+                            "SDKVersion": "2.17.0",
+                            "brand": "devtools",
+                            "fontSizeSetting": 16,
+                            "benchmarkLevel": 1,
+                            "batteryLevel": 41,
+                            "statusBarHeight": 47,
+                            "safeArea": {
+                                "top": 44,
+                                "left": 0,
+                                "right": 428,
+                                "bottom": 892,
+                                "width": 428,
+                                "height": 848
+                            },
+                            "deviceOrientation": "portrait",
+                            "platform": "devtools",
+                            "enableDebug": false,
+                            "devicePixelRatio": 3
+                        }
+                    },
+                    "log_filename": "test_case_01.log",
+                    "error_type": "",
+                    "error_value": "",
+                    "screen_info": [
+                        {
+                            "name": "setup",
+                            "url": "/page_ji_shi/qiangDan/qiangDan",
+                            "path": "images\\setup.png",
+                            "ts": 1634889770,
+                            "datetime": "2021-10-22 16:02:50"
+                        },
+                        {
+                            "name": "teardown",
+                            "url": "/store/index/index",
+                            "path": "images\\teardown.png",
+                            "ts": 1634889876,
+                            "datetime": "2021-10-22 16:04:36"
+                        }
+                    ],
+                    "check_list": [],
+                    "assert_list": [],
+                    "perf_data": "{\"startup\": 0, \"avg_cpu\": 0, \"max_cpu\": 0, \"cpu_data_list\": [], \"avg_mem\": 0, \"max_mem\": 0, \"mem_data_list\": [], \"avg_fps\": 0, \"min_fps_rt\": 0, \"fps_data_list\": [], \"fps_time_series_list\": [], \"cpu_time_series_list\": [], \"mem_time_series_list\": []}",
+                    "weapp_log_path": "weapp.log",
+                    "request_log_path": "request.log",
+                    "page_data": {
+                        "storeUrl": "",
+                        "userType": "JS"
+                    },
+                    "stop_timestamp": 1634889876.8382778,
+                    "appId": "wx1081577a84fd8742",
+                    "appName": "\u8f66\u6280\u4e0d\u9519",
+                    "source": {
+                        "code": [
+                            "    def test_case_01(self):\n",
+                            "        self.page.wait_for(100)\n",
+                            "        self.page.get_element('view', inner_text='\u5546\u57ce').click()\n"
+                        ],
+                        "start": 9
+                    },
+                    "filename": "test_case_01.json",
+                    "relative": "20211022160220\\test_case_01\\20211022160248761858",
+                    "costs": "01\u5206\u949f48\u79d2"
+                }
+            ],
+            "summary": {
+                "case_num": 1,
+                "success": 1,
+                "failed": 0,
+                "error": 0,
+                "costs": "01\u5206\u949f48\u79d2",
+                "start_time": "2021/10/22 16:02:48",
+                "end_time": "2021/10/22 16:04:36",
+                "detail": [
+                    {
+                        "name": "Demo",
+                        "case_num": 1,
+                        "success": 1,
+                        "failed": 0,
+                        "error": 0,
+                        "start_time": "2021/10/22 16:02:48",
+                        "end_time": "2021/10/22 16:04:36",
+                        "costs": "01\u5206\u949f48\u79d2"
+                    }
+                ]
+            }
+        },
+        {
+            "case_datas": [
+                {
+                    "case_name": "test_case_01",
+                    "run_time": "20211022 15:53:11",
+                    "test_type": "DemoTest",
+                    "case_doc": null,
+                    "success": false,
+                    "failures": "",
+                    "errors": "Traceback (most recent call last):\n  File \"D:\\Python\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n  File \"D:\\Python\\lib\\site-packages\\minium-1.2.1-py3.9.egg\\minium\\framework\\libs\\unittest\\case.py\", line 80, in run\n    self._callTestMethod(testMethod)\n  File \"D:\\Python\\lib\\unittest\\case.py\", line 550, in _callTestMethod\n    method()\n  File \"C:\\Users\\zhangbd\\Desktop\\BitAuto\\Projects\\MallUIAutoTest\\Demo.py\", line 10, in test_case_01\n    self.page.element_is_exists()\n  File \"D:\\Python\\lib\\site-packages\\minium-1.2.1-py3.9.egg\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"D:\\Python\\lib\\site-packages\\minium-1.2.1-py3.9.egg\\minium\\miniprogram\\base_driver\\page.py\", line 154, in element_is_exists\n    if selector.startswith(\"/\"):\nAttributeError: 'NoneType' object has no attribute 'startswith'\n",
+                    "start_timestamp": 1634889191.3443444,
+                    "is_failure": false,
+                    "is_error": true,
+                    "module": "C:.Users.zhangbd.Desktop.BitAuto.Projects.MallUIAutoTest.Demo",
+                    "package": "Demo",
+                    "failed_line_num": 10,
+                    "device": {
+                        "system_info": {
+                            "model": "iPhone 12 Pro Max",
+                            "pixelRatio": 3,
+                            "windowWidth": 428,
+                            "windowHeight": 835,
+                            "system": "iOS 10.0.1",
+                            "language": "zh_CN",
+                            "version": "8.0.5",
+                            "screenWidth": 428,
+                            "screenHeight": 926,
+                            "SDKVersion": "2.17.0",
+                            "brand": "devtools",
+                            "fontSizeSetting": 16,
+                            "benchmarkLevel": 1,
+                            "batteryLevel": 47,
+                            "statusBarHeight": 47,
+                            "safeArea": {
+                                "top": 44,
+                                "left": 0,
+                                "right": 428,
+                                "bottom": 892,
+                                "width": 428,
+                                "height": 848
+                            },
+                            "deviceOrientation": "portrait",
+                            "platform": "devtools",
+                            "enableDebug": false,
+                            "devicePixelRatio": 3
+                        }
+                    },
+                    "log_filename": "test_case_01.log",
+                    "error_type": "AttributeError",
+                    "error_value": "'NoneType' object has no attribute 'startswith'",
+                    "screen_info": [
+                        {
+                            "name": "setup",
+                            "url": "/commonPage/logo/logo",
+                            "path": "images\\setup.png",
+                            "ts": 1634889192,
+                            "datetime": "2021-10-22 15:53:12"
+                        },
+                        {
+                            "name": "teardown",
+                            "url": "/commonPage/logo/logo",
+                            "path": "images\\teardown.png",
+                            "ts": 1634889192,
+                            "datetime": "2021-10-22 15:53:12"
+                        }
+                    ],
+                    "check_list": [],
+                    "assert_list": [],
+                    "perf_data": "{\"startup\": 0, \"avg_cpu\": 0, \"max_cpu\": 0, \"cpu_data_list\": [], \"avg_mem\": 0, \"max_mem\": 0, \"mem_data_list\": [], \"avg_fps\": 0, \"min_fps_rt\": 0, \"fps_data_list\": [], \"fps_time_series_list\": [], \"cpu_time_series_list\": [], \"mem_time_series_list\": []}",
+                    "weapp_log_path": "weapp.log",
+                    "request_log_path": "request.log",
+                    "page_data": {},
+                    "stop_timestamp": 1634889192.6808152,
+                    "appId": "wx1081577a84fd8742",
+                    "appName": "\u8f66\u6280\u4e0d\u9519",
+                    "source": {
+                        "code": [
+                            "    def test_case_01(self):\n",
+                            "        self.page.element_is_exists()\n",
+                            "        self.page.get_element('\u5546\u57ce').click()\n"
+                        ],
+                        "start": 9
+                    },
+                    "filename": "test_case_01.json",
+                    "relative": "20211022155241\\test_case_01\\20211022155311337363",
+                    "costs": "1.336\u79d2"
+                }
+            ],
+            "summary": {
+                "case_num": 1,
+                "success": 0,
+                "failed": 0,
+                "error": 1,
+                "costs": "1.336\u79d2",
+                "start_time": "2021/10/22 15:53:11",
+                "end_time": "2021/10/22 15:53:12",
+                "detail": [
+                    {
+                        "name": "Demo",
+                        "case_num": 1,
+                        "success": 0,
+                        "failed": 0,
+                        "error": 1,
+                        "start_time": "2021/10/22 15:53:11",
+                        "end_time": "2021/10/22 15:53:12",
+                        "costs": "1.336\u79d2"
+                    }
+                ]
+            }
+        },
+        {
+            "case_datas": [
+                {
+                    "case_name": "test_case_01",
+                    "run_time": "20211022 15:42:05",
+                    "test_type": "DemoTest",
+                    "case_doc": null,
+                    "success": false,
+                    "failures": "",
+                    "errors": "Traceback (most recent call last):\n  File \"D:\\Python\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n  File \"D:\\Python\\lib\\site-packages\\minium-1.2.1-py3.9.egg\\minium\\framework\\libs\\unittest\\case.py\", line 73, in run\n    self._miniSetUp()\n  File \"D:\\Python\\lib\\site-packages\\minium-1.2.1-py3.9.egg\\minium\\framework\\minitest.py\", line 666, in _miniSetUp\n    self.capture(\"setup\")\n  File \"D:\\Python\\lib\\site-packages\\minium-1.2.1-py3.9.egg\\minium\\framework\\minitest.py\", line 899, in capture\n    self.native.screen_shot(path)\n  File \"D:\\Python\\lib\\site-packages\\minium-1.2.1-py3.9.egg\\minium\\native\\wx_native\\idenative.py\", line 28, in screen_shot\n    self.mini.app.screen_shot(filename, return_format)\n  File \"D:\\Python\\lib\\site-packages\\minium-1.2.1-py3.9.egg\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"D:\\Python\\lib\\site-packages\\minium-1.2.1-py3.9.egg\\minium\\miniprogram\\base_driver\\app.py\", line 131, in screen_shot\n    b64_data = self.connection.send(\"App.captureScreenshot\").get(\"result\").get(\"data\")\n  File \"D:\\Python\\lib\\site-packages\\minium-1.2.1-py3.9.egg\\minium\\miniprogram\\base_driver\\connection.py\", line 185, in send\n    return self._receive_response(cmd)\n  File \"D:\\Python\\lib\\site-packages\\minium-1.2.1-py3.9.egg\\minium\\miniprogram\\base_driver\\connection.py\", line 214, in _receive_response\n    raise MiniTimeoutError(\nminium.framework.exception.MiniTimeoutError: [call App.captureScreenshot] receive from remote timeout, id: 07a07539-64c1-48f9-96aa-9d5cc2924d5b\n",
+                    "start_timestamp": 1634888525.9539764,
+                    "is_failure": false,
+                    "is_error": true,
+                    "module": "C:.Users.zhangbd.Desktop.BitAuto.Projects.MallUIAutoTest.Demo",
+                    "package": "Demo",
+                    "failed_line_num": -1,
+                    "device": {
+                        "system_info": {
+                            "model": "iPhone 12 Pro Max",
+                            "pixelRatio": 3,
+                            "windowWidth": 428,
+                            "windowHeight": 926,
+                            "system": "iOS 10.0.1",
+                            "language": "zh_CN",
+                            "version": "8.0.5",
+                            "screenWidth": 428,
+                            "screenHeight": 926,
+                            "SDKVersion": "2.17.0",
+                            "brand": "devtools",
+                            "fontSizeSetting": 16,
+                            "benchmarkLevel": 1,
+                            "batteryLevel": 55,
+                            "statusBarHeight": 47,
+                            "safeArea": {
+                                "top": 44,
+                                "left": 0,
+                                "right": 428,
+                                "bottom": 892,
+                                "width": 428,
+                                "height": 848
+                            },
+                            "deviceOrientation": "portrait",
+                            "platform": "devtools",
+                            "enableDebug": false,
+                            "devicePixelRatio": 3
+                        }
+                    },
+                    "log_filename": "test_case_01.log",
+                    "error_type": "MiniTimeoutError",
+                    "error_value": "[call App.captureScreenshot] receive from remote timeout, id: 07a07539-64c1-48f9-96aa-9d5cc2924d5b",
+                    "screen_info": [
+                        {
+                            "name": "teardown",
+                            "url": "/page_ji_shi/qiangDan/qiangDan",
+                            "path": "images\\teardown.png",
+                            "ts": 1634888591,
+                            "datetime": "2021-10-22 15:43:11"
+                        }
+                    ],
+                    "check_list": [],
+                    "assert_list": [],
+                    "weapp_log_path": "weapp.log",
+                    "request_log_path": "request.log",
+                    "page_data": {
+                        "jishiInfo": {
+                            "id": 3049,
+                            "cuUserPhoneNumBindId": 7893,
+                            "wxAppUserInfoPhoneNumber": "13552219960",
+                            "wxAppUserInfoNickName": "",
+                            "avatarUrl": "",
+                            "avatarCheckState": -9,
+                            "serviceQualityLevel": 3,
+                            "serviceCommentStarLevel": 0,
+                            "contactName": "\u738b\u7521",
+                            "contactPhoneNumber": "13552219960",
+                            "idCardNum": "370103198107134012",
+                            "cityId": 201,
+                            "cityName": "\u5317\u4eac",
+                            "snatchOrderRegionIdList": null,
+                            "isShowAllCity": true,
+                            "enableSnatchOrder": 1,
+                            "hasAgreeWithTheProtocol": 1,
+                            "skillExamStateCollectionMap": [
+                                {
+                                    "name": "\u8f66\u8863",
+                                    "id": "1002"
+                                }
+                            ],
+                            "paySuccessJsOrderCount": 0,
+                            "paySuccessJsOrderManualCostSum": 0,
+                            "paySuccessJsOrderCommentStarSum": 0,
+                            "createTime": null,
+                            "updateTime": null,
+                            "platformLabelType": 0,
+                            "planAFalg": false,
+                            "applymentState": 0,
+                            "hasShowSign": 0,
+                            "cardVerifyResult": -2,
+                            "paperInfoList": [],
+                            "jsEncodeId": "0BCACCAEDE42329A",
+                            "jsTeamDto": {
+                                "id": 2545,
+                                "teamName": "\u738b\u7521",
+                                "teamFullName": "\u738b\u7521",
+                                "teamManagerJsId": 7893,
+                                "provinceId": 2,
+                                "provinceName": "\u5317\u4eac",
+                                "cityId": 201,
+                                "cityName": "\u5317\u4eac",
+                                "regionId": 0,
+                                "regionName": "",
+                                "status": 1,
+                                "contractCode": "",
+                                "teamType": 2,
+                                "tenantId": 1000001803,
+                                "tenantStatus": 1,
+                                "tenantStime": "2021-10-11 10:35:53",
+                                "hasDelete": null,
+                                "createStime": null,
+                                "updateStime": null,
+                                "teamManagerJsSkillExamStateCollection": null,
+                                "teamOrderCompleteCount": null,
+                                "userRoleType": 2,
+                                "cuUserPhoneNumBindId": 7893,
+                                "teamUserList": null
+                            },
+                            "regionIdList": [
+                                {
+                                    "locationId": 1536,
+                                    "locationName": "\u901a\u5dde",
+                                    "flag": 1
+                                },
+                                {
+                                    "locationId": 20101,
+                                    "locationName": "\u4e1c\u57ce",
+                                    "flag": 1
+                                },
+                                {
+                                    "locationId": 110102,
+                                    "locationName": "\u897f\u57ce",
+                                    "flag": 1
+                                },
+                                {
+                                    "locationId": 110105,
+                                    "locationName": "\u671d\u9633",
+                                    "flag": 1
+                                },
+                                {
+                                    "locationId": 110106,
+                                    "locationName": "\u4e30\u53f0",
+                                    "flag": 1
+                                },
+                                {
+                                    "locationId": 110107,
+                                    "locationName": "\u77f3\u666f\u5c71",
+                                    "flag": 1
+                                },
+                                {
+                                    "locationId": 110108,
+                                    "locationName": "\u6d77\u6dc0",
+                                    "flag": 1
+                                },
+                                {
+                                    "locationId": 110109,
+                                    "locationName": "\u95e8\u5934\u6c9f",
+                                    "flag": 1
+                                },
+                                {
+                                    "locationId": 110111,
+                                    "locationName": "\u623f\u5c71",
+                                    "flag": 1
+                                },
+                                {
+                                    "locationId": 110113,
+                                    "locationName": "\u987a\u4e49",
+                                    "flag": 1
+                                },
+                                {
+                                    "locationId": 110114,
+                                    "locationName": "\u660c\u5e73",
+                                    "flag": 1
+                                },
+                                {
+                                    "locationId": 110115,
+                                    "locationName": "\u5927\u5174",
+                                    "flag": 1
+                                },
+                                {
+                                    "locationId": 110116,
+                                    "locationName": "\u6000\u67d4",
+                                    "flag": 1
+                                },
+                                {
+                                    "locationId": 110117,
+                                    "locationName": "\u5e73\u8c37",
+                                    "flag": 1
+                                },
+                                {
+                                    "locationId": 110228,
+                                    "locationName": "\u5bc6\u4e91",
+                                    "flag": 1
+                                },
+                                {
+                                    "locationId": 110229,
+                                    "locationName": "\u5ef6\u5e86",
+                                    "flag": 1
+                                }
+                            ]
+                        },
+                        "currentPage": 2,
+                        "pageSize": 5,
+                        "orderList": [],
+                        "hasRobList": [
+                            {
+                                "demandOrderId": 9910828,
+                                "demandOrderCode": "880211015108058",
+                                "createTime": "2021-10-15 10:47:33",
+                                "vehicleType": 1,
+                                "workItem": "\u8f66\u8863",
+                                "workItemId": 1002,
+                                "workPartTypeName": "\u6574\u8f66",
+                                "workPart": [],
+                                "quotedPrice": 100,
+                                "referencePrice": 0,
+                                "provinceId": 2,
+                                "provinceName": "\u5317\u4eac\u5e02",
+                                "cityId": 201,
+                                "cityName": "\u5317\u4eac\u5e02",
+                                "regionId": null,
+                                "regionName": "\u6d77\u6dc0\u533a",
+                                "businessScopeId": -9,
+                                "businessScopeName": "\u767d\u77f3\u6865",
+                                "workTime": "10\u670815\u65e5 12:00",
+                                "workRemark": "",
+                                "carStateId": null,
+                                "carStateName": "\u65b0\u8f66",
+                                "mbName": "\u73b0\u4ee3",
+                                "highlyDifficultCar": 0,
+                                "contactsName": "\u95eb\u95eb\u95eb",
+                                "contactsPhone": "13011067077",
+                                "prioritySnatchJsList": "7244,100000065,7977",
+                                "prioritySnatchEnable": 0,
+                                "prioritySnatchExprieTime": "2021-10-15 10:47:33",
+                                "materialsName": "TPU",
+                                "hasLsolationPool": "Y",
+                                "robStatus": null,
+                                "robExprieTime": null,
+                                "chooseExprieTime": "2021-10-15 11:00:16",
+                                "isNew": 1,
+                                "carId": 2874,
+                                "carImg": null,
+                                "poi": null,
+                                "poiAddress": null,
+                                "sjBusinessUserAddressId": 11141,
+                                "workRemarkDescId": [
+                                    {
+                                        "createStime": 1628683150000,
+                                        "createTime": 1628683151000,
+                                        "demandDesValue": "\u5c3d\u5feb\u5230\u5e97",
+                                        "hasDelete": 0,
+                                        "hasIsolate": 0,
+                                        "id": 16,
+                                        "updateStime": 1628683150000,
+                                        "updateTime": 1628683151000,
+                                        "weight": 4
+                                    }
+                                ],
+                                "isDirectcustomer": 1,
+                                "sendPollingTime": null,
+                                "settletToJishiPrice": 10,
+                                "jsUserName": "\u5f20\u6210\u56fd",
+                                "districtId": 110108,
+                                "districtName": "\u6d77\u6dc0\u533a",
+                                "carName": "\u73b0\u4ee3ix35",
+                                "bname": "",
+                                "surname": "\u5f20",
+                                "workRemarkDescIdStr": "\u5c3d\u5feb\u5230\u5e97"
+                            },
+                            {
+                                "demandOrderId": 9910821,
+                                "demandOrderCode": "880211015103047",
+                                "createTime": "2021-10-15 10:44:56",
+                                "vehicleType": 1,
+                                "workItem": "\u8f66\u8863",
+                                "workItemId": 1002,
+                                "workPartTypeName": "\u6574\u8f66",
+                                "workPart": [],
+                                "quotedPrice": 100,
+                                "referencePrice": 0,
+                                "provinceId": 2,
+                                "provinceName": "\u5317\u4eac\u5e02",
+                                "cityId": 201,
+                                "cityName": "\u5317\u4eac\u5e02",
+                                "regionId": null,
+                                "regionName": "\u6d77\u6dc0\u533a",
+                                "businessScopeId": -9,
+                                "businessScopeName": "\u767d\u77f3\u6865",
+                                "workTime": "10\u670815\u65e5 12:00",
+                                "workRemark": "",
+                                "carStateId": null,
+                                "carStateName": "\u65b0\u8f66",
+                                "mbName": "\u73b0\u4ee3",
+                                "highlyDifficultCar": 0,
+                                "contactsName": "\u95eb\u95eb\u95eb",
+                                "contactsPhone": "13011067077",
+                                "prioritySnatchJsList": "7244,100000065,7977",
+                                "prioritySnatchEnable": 0,
+                                "prioritySnatchExprieTime": "2021-10-15 10:44:55",
+                                "materialsName": "TPU",
+                                "hasLsolationPool": "Y",
+                                "robStatus": null,
+                                "robExprieTime": null,
+                                "chooseExprieTime": "2021-10-15 10:55:35",
+                                "isNew": 1,
+                                "carId": 5263,
+                                "carImg": null,
+                                "poi": null,
+                                "poiAddress": null,
+                                "sjBusinessUserAddressId": 11141,
+                                "workRemarkDescId": [
+                                    {
+                                        "createStime": 1625655894000,
+                                        "createTime": 1625655894000,
+                                        "demandDesValue": "\u9700\u8981\u6495\u819c",
+                                        "hasDelete": 0,
+                                        "hasIsolate": 0,
+                                        "id": 9,
+                                        "updateStime": 1628683135000,
+                                        "updateTime": 1628683136000,
+                                        "weight": 1
+                                    },
+                                    {
+                                        "createStime": 1628683150000,
+                                        "createTime": 1628683151000,
+                                        "demandDesValue": "\u5c3d\u5feb\u5230\u5e97",
+                                        "hasDelete": 0,
+                                        "hasIsolate": 0,
+                                        "id": 16,
+                                        "updateStime": 1628683150000,
+                                        "updateTime": 1628683151000,
+                                        "weight": 4
+                                    }
+                                ],
+                                "isDirectcustomer": 1,
+                                "sendPollingTime": null,
+                                "settletToJishiPrice": 10,
+                                "jsUserName": "\u5f20\u6210\u56fd",
+                                "districtId": 110108,
+                                "districtName": "\u6d77\u6dc0\u533a",
+                                "carName": "ENCINO \u6602\u5e0c\u8bfa",
+                                "bname": "",
+                                "surname": "\u5f20",
+                                "workRemarkDescIdStr": "\u9700\u8981\u6495\u819c\u5c3d\u5feb\u5230\u5e97"
+                            },
+                            {
+                                "demandOrderId": 9910772,
+                                "demandOrderCode": "880211014227153",
+                                "createTime": "2021-10-14 22:40:42",
+                                "vehicleType": 1,
+                                "workItem": "\u8f66\u8863",
+                                "workItemId": 1002,
+                                "workPartTypeName": "\u6574\u8f66",
+                                "workPart": [],
+                                "quotedPrice": 100,
+                                "referencePrice": 0,
+                                "provinceId": 2,
+                                "provinceName": "\u5317\u4eac\u5e02",
+                                "cityId": 201,
+                                "cityName": "\u5317\u4eac\u5e02",
+                                "regionId": null,
+                                "regionName": "\u6d77\u6dc0\u533a",
+                                "businessScopeId": -9,
+                                "businessScopeName": "\u767d\u77f3\u6865",
+                                "workTime": "10\u670815\u65e5 22:00",
+                                "workRemark": "00",
+                                "carStateId": null,
+                                "carStateName": "\u65b0\u8f66",
+                                "mbName": "\u73b0\u4ee3",
+                                "highlyDifficultCar": 0,
+                                "contactsName": "\u95eb\u95eb\u95eb",
+                                "contactsPhone": "13011067077",
+                                "prioritySnatchJsList": "100000065,7977,7244",
+                                "prioritySnatchEnable": 0,
+                                "prioritySnatchExprieTime": "2021-10-14 22:40:42",
+                                "materialsName": "TPU",
+                                "hasLsolationPool": "Y",
+                                "robStatus": null,
+                                "robExprieTime": null,
+                                "chooseExprieTime": "2021-10-14 22:53:08",
+                                "isNew": 1,
+                                "carId": 5263,
+                                "carImg": null,
+                                "poi": null,
+                                "poiAddress": null,
+                                "sjBusinessUserAddressId": 11141,
+                                "workRemarkDescId": [],
+                                "isDirectcustomer": 1,
+                                "sendPollingTime": null,
+                                "settletToJishiPrice": 10,
+                                "jsUserName": "\u90ed\u4e9a\u8339",
+                                "districtId": 110108,
+                                "districtName": "\u6d77\u6dc0\u533a",
+                                "carName": "ENCINO \u6602\u5e0c\u8bfa",
+                                "bname": "",
+                                "surname": "\u90ed",
+                                "workRemarkDescIdStr": ""
+                            },
+                            {
+                                "demandOrderId": 9910681,
+                                "demandOrderCode": "880211014153167",
+                                "createTime": "2021-10-14 15:43:10",
+                                "vehicleType": 1,
+                                "workItem": "\u8f66\u8863",
+                                "workItemId": 1002,
+                                "workPartTypeName": "\u6574\u8f66",
+                                "workPart": [],
+                                "quotedPrice": 100,
+                                "referencePrice": 0,
+                                "provinceId": 2,
+                                "provinceName": "\u5317\u4eac",
+                                "cityId": 201,
+                                "cityName": "\u5317\u4eac",
+                                "regionId": null,
+                                "regionName": "\u4e1c\u57ce",
+                                "businessScopeId": -9,
+                                "businessScopeName": "\u4e1c\u56db",
+                                "workTime": "10\u670815\u65e5 15:00",
+                                "workRemark": "\u901a\u8fc7\u5b98\u65b9\u53f7",
+                                "carStateId": null,
+                                "carStateName": "\u65b0\u8f66",
+                                "mbName": "\u5965\u8fea",
+                                "highlyDifficultCar": 0,
+                                "contactsName": "\u738b\u9ebb\u5b50",
+                                "contactsPhone": "17610453270",
+                                "prioritySnatchJsList": "",
+                                "prioritySnatchEnable": 0,
+                                "prioritySnatchExprieTime": "2021-10-14 15:43:10",
+                                "materialsName": "TPU",
+                                "hasLsolationPool": "Y",
+                                "robStatus": null,
+                                "robExprieTime": null,
+                                "chooseExprieTime": "2021-10-14 15:59:31",
+                                "isNew": 1,
+                                "carId": 2855,
+                                "carImg": null,
+                                "poi": null,
+                                "poiAddress": null,
+                                "sjBusinessUserAddressId": 11169,
+                                "workRemarkDescId": [
+                                    {
+                                        "createStime": 1628683150000,
+                                        "createTime": 1628683151000,
+                                        "demandDesValue": "\u5c3d\u5feb\u5230\u5e97",
+                                        "hasDelete": 0,
+                                        "hasIsolate": 0,
+                                        "id": 16,
+                                        "updateStime": 1628683150000,
+                                        "updateTime": 1628683151000,
+                                        "weight": 4
+                                    },
+                                    {
+                                        "createStime": 1625655894000,
+                                        "createTime": 1625655894000,
+                                        "demandDesValue": "\u9700\u8981\u6495\u819c",
+                                        "hasDelete": 0,
+                                        "hasIsolate": 0,
+                                        "id": 9,
+                                        "updateStime": 1628683135000,
+                                        "updateTime": 1628683136000,
+                                        "weight": 1
+                                    }
+                                ],
+                                "isDirectcustomer": 1,
+                                "sendPollingTime": null,
+                                "settletToJishiPrice": 10,
+                                "jsUserName": "\u5f20\u6210\u56fd",
+                                "districtId": 20101,
+                                "districtName": "\u4e1c\u57ce",
+                                "carName": "\u5965\u8feaQ5",
+                                "bname": "",
+                                "surname": "\u5f20",
+                                "workRemarkDescIdStr": "\u5c3d\u5feb\u5230\u5e97\u9700\u8981\u6495\u819c"
+                            },
+                            {
+                                "demandOrderId": 9910597,
+                                "demandOrderCode": "880211014132765",
+                                "createTime": "2021-10-14 13:50:12",
+                                "vehicleType": 2,
+                                "workItem": "\u8f66\u8863",
+                                "workItemId": 1002,
+                                "workPartTypeName": "\u6574\u8f66",
+                                "workPart": [],
+                                "quotedPrice": 50,
+                                "referencePrice": 0,
+                                "provinceId": 2,
+                                "provinceName": "\u5317\u4eac",
+                                "cityId": 201,
+                                "cityName": "\u5317\u4eac",
+                                "regionId": null,
+                                "regionName": "\u671d\u9633",
+                                "businessScopeId": -9,
+                                "businessScopeName": "",
+                                "workTime": "10\u670814\u65e5 15:00",
+                                "workRemark": "Yan\u6d4b\u8bd5",
+                                "carStateId": null,
+                                "carStateName": "",
+                                "mbName": "\u6469\u6258\u8f66",
+                                "highlyDifficultCar": 0,
+                                "contactsName": "\u674e\u5a77\u5a77",
+                                "contactsPhone": "13301244767",
+                                "prioritySnatchJsList": "7244,7977",
+                                "prioritySnatchEnable": 0,
+                                "prioritySnatchExprieTime": "2021-10-14 13:50:12",
+                                "materialsName": "",
+                                "hasLsolationPool": "Y",
+                                "robStatus": null,
+                                "robExprieTime": null,
+                                "chooseExprieTime": "2021-10-14 14:25:29",
+                                "isNew": 1,
+                                "carId": 0,
+                                "carImg": null,
+                                "poi": null,
+                                "poiAddress": null,
+                                "sjBusinessUserAddressId": 9255,
+                                "workRemarkDescId": [
+                                    {
+                                        "createStime": 1628683150000,
+                                        "createTime": 1628683151000,
+                                        "demandDesValue": "\u5c3d\u5feb\u5230\u5e97",
+                                        "hasDelete": 0,
+                                        "hasIsolate": 0,
+                                        "id": 16,
+                                        "updateStime": 1628683150000,
+                                        "updateTime": 1628683151000,
+                                        "weight": 4
+                                    }
+                                ],
+                                "isDirectcustomer": 1,
+                                "sendPollingTime": null,
+                                "settletToJishiPrice": 5,
+                                "jsUserName": "\u5f20\u6210\u56fd",
+                                "districtId": 110105,
+                                "districtName": "\u671d\u9633",
+                                "carName": "\u6469\u6258\u8f66",
+                                "bname": "",
+                                "surname": "\u5f20",
+                                "workRemarkDescIdStr": "\u5c3d\u5feb\u5230\u5e97"
+                            }
+                        ],
+                        "total": 0,
+                        "isLoadOver": false,
+                        "showSecret": false,
+                        "statusType": 0,
+                        "statusShow": false,
+                        "opacity": 0,
+                        "distanceArr": {},
+                        "versionClose": true,
+                        "flushFrequency": 3000,
+                        "isFresh": true,
+                        "jishiUserRole": 2,
+                        "navH": 91
+                    },
+                    "stop_timestamp": 1634888591.815421,
+                    "appId": "wx1081577a84fd8742",
+                    "appName": "\u8f66\u6280\u4e0d\u9519",
+                    "source": {
+                        "code": [
+                            "    def test_case_01(self):\n",
+                            "        self.page.element_is_exists()\n",
+                            "        self.page.get_element('\u5546\u57ce', inner_text=None).click()\n"
+                        ],
+                        "start": 9
+                    },
+                    "filename": "test_case_01.json",
+                    "relative": "20211022154123\\test_case_01\\20211022154205950984",
+                    "costs": "01\u5206\u949f05\u79d2"
+                }
+            ],
+            "summary": {
+                "case_num": 1,
+                "success": 0,
+                "failed": 0,
+                "error": 1,
+                "costs": "01\u5206\u949f05\u79d2",
+                "start_time": "2021/10/22 15:42:05",
+                "end_time": "2021/10/22 15:43:11",
+                "detail": [
+                    {
+                        "name": "Demo",
+                        "case_num": 1,
+                        "success": 0,
+                        "failed": 0,
+                        "error": 1,
+                        "start_time": "2021/10/22 15:42:05",
+                        "end_time": "2021/10/22 15:43:11",
+                        "costs": "01\u5206\u949f05\u79d2"
+                    }
+                ]
+            }
+        },
+        {
+            "case_datas": [
+                {
+                    "case_name": "test_case_01",
+                    "run_time": "20211022 15:29:50",
+                    "test_type": "DemoTest",
+                    "case_doc": null,
+                    "success": false,
+                    "failures": "",
+                    "errors": "Traceback (most recent call last):\n  File \"D:\\Python\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n  File \"D:\\Python\\lib\\site-packages\\minium-1.2.1-py3.9.egg\\minium\\framework\\libs\\unittest\\case.py\", line 73, in run\n    self._miniSetUp()\n  File \"D:\\Python\\lib\\site-packages\\minium-1.2.1-py3.9.egg\\minium\\framework\\minitest.py\", line 666, in _miniSetUp\n    self.capture(\"setup\")\n  File \"D:\\Python\\lib\\site-packages\\minium-1.2.1-py3.9.egg\\minium\\framework\\minitest.py\", line 899, in capture\n    self.native.screen_shot(path)\n  File \"D:\\Python\\lib\\site-packages\\minium-1.2.1-py3.9.egg\\minium\\native\\wx_native\\idenative.py\", line 28, in screen_shot\n    self.mini.app.screen_shot(filename, return_format)\n  File \"D:\\Python\\lib\\site-packages\\minium-1.2.1-py3.9.egg\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"D:\\Python\\lib\\site-packages\\minium-1.2.1-py3.9.egg\\minium\\miniprogram\\base_driver\\app.py\", line 131, in screen_shot\n    b64_data = self.connection.send(\"App.captureScreenshot\").get(\"result\").get(\"data\")\n  File \"D:\\Python\\lib\\site-packages\\minium-1.2.1-py3.9.egg\\minium\\miniprogram\\base_driver\\connection.py\", line 185, in send\n    return self._receive_response(cmd)\n  File \"D:\\Python\\lib\\site-packages\\minium-1.2.1-py3.9.egg\\minium\\miniprogram\\base_driver\\connection.py\", line 214, in _receive_response\n    raise MiniTimeoutError(\nminium.framework.exception.MiniTimeoutError: [call App.captureScreenshot] receive from remote timeout, id: f4fbd53e-0ed1-4dbc-b11f-cfd8479bb787\n",
+                    "start_timestamp": 1634887790.0425391,
+                    "is_failure": false,
+                    "is_error": true,
+                    "module": "C:.Users.zhangbd.Desktop.BitAuto.Projects.MallUIAutoTest.Demo",
+                    "package": "Demo",
+                    "failed_line_num": -1,
+                    "device": {
+                        "system_info": {
+                            "model": "iPhone 12 Pro Max",
+                            "pixelRatio": 3,
+                            "windowWidth": 428,
+                            "windowHeight": 926,
+                            "system": "iOS 10.0.1",
+                            "language": "zh_CN",
+                            "version": "8.0.5",
+                            "screenWidth": 428,
+                            "screenHeight": 926,
+                            "SDKVersion": "2.17.0",
+                            "brand": "devtools",
+                            "fontSizeSetting": 16,
+                            "benchmarkLevel": 1,
+                            "batteryLevel": 61,
+                            "statusBarHeight": 47,
+                            "safeArea": {
+                                "top": 44,
+                                "left": 0,
+                                "right": 428,
+                                "bottom": 892,
+                                "width": 428,
+                                "height": 848
+                            },
+                            "deviceOrientation": "portrait",
+                            "platform": "devtools",
+                            "enableDebug": false,
+                            "devicePixelRatio": 3
+                        }
+                    },
+                    "log_filename": "test_case_01.log",
+                    "error_type": "MiniTimeoutError",
+                    "error_value": "[call App.captureScreenshot] receive from remote timeout, id: f4fbd53e-0ed1-4dbc-b11f-cfd8479bb787",
+                    "screen_info": [],
+                    "check_list": [],
+                    "assert_list": [],
+                    "weapp_log_path": "weapp.log",
+                    "request_log_path": "request.log",
+                    "page_data": null,
+                    "stop_timestamp": 1634887916.1233816,
+                    "appId": "wx1081577a84fd8742",
+                    "appName": "\u8f66\u6280\u4e0d\u9519",
+                    "source": {
+                        "code": [
+                            "    def test_case_01(self):\n",
+                            "        self.page.element_is_exists(10)\n",
+                            "        self.page.get_element(value='\u5546\u57ce').click()\n"
+                        ],
+                        "start": 9
+                    },
+                    "filename": "test_case_01.json",
+                    "relative": "20211022152716\\test_case_01\\20211022152950025585",
+                    "costs": "02\u5206\u949f06\u79d2"
+                }
+            ],
+            "summary": {
+                "case_num": 1,
+                "success": 0,
+                "failed": 0,
+                "error": 1,
+                "costs": "02\u5206\u949f06\u79d2",
+                "start_time": "2021/10/22 15:29:50",
+                "end_time": "2021/10/22 15:31:56",
+                "detail": [
+                    {
+                        "name": "Demo",
+                        "case_num": 1,
+                        "success": 0,
+                        "failed": 0,
+                        "error": 1,
+                        "start_time": "2021/10/22 15:29:50",
+                        "end_time": "2021/10/22 15:31:56",
+                        "costs": "02\u5206\u949f06\u79d2"
+                    }
+                ]
+            }
+        }
+    ],
+    "summary": {}
+}

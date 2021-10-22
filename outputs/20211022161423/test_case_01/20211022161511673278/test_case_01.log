@@ -1,0 +1,63 @@
+DEBUG 2021-10-22 16:15:11,680 minitest.py _miniSetUp      655 =========Current case：test_case_01=========
+INFO  2021-10-22 16:15:11,681 app.py     relaunch        301 ReLaunch: /commonPage/logo/logo
+DEBUG 2021-10-22 16:15:11,683 connection.py send            183 SEND > {"id":"f626d0d8-c7d1-4c10-8de3-d0bbb3c84d82","method":"App.callWxMethod","params":{"method":"reLaunch","args":[{"url":"/commonPage/logo/logo"}]}}
+DEBUG 2021-10-22 16:15:11,897 connection.py _on_message     232 RECV < {"id":"f626d0d8-c7d1-4c10-8de3-d0bbb3c84d82","result":{"result":{"errMsg":"reLaunch:ok"}}}
+DEBUG 2021-10-22 16:15:11,898 connection.py _on_message     232 RECV < {"id":"f626d0d8-c7d1-4c10-8de3-d0bbb3c84d82","result":{"result":{"errMsg":"reLaunch:ok"}}}
+DEBUG 2021-10-22 16:15:11,898 connection.py _on_message     232 RECV < {"id":"f626d0d8-c7d1-4c10-8de3-d0bbb3c84d82","result":{"result":{"errMsg":"reLaunch:ok"}}}
+WARNI 2021-10-22 16:15:11,899 connection.py _on_message     241 received async msg: f626d0d8-c7d1-4c10-8de3-d0bbb3c84d82
+WARNI 2021-10-22 16:15:11,907 connection.py _on_message     241 received async msg: f626d0d8-c7d1-4c10-8de3-d0bbb3c84d82
+DEBUG 2021-10-22 16:15:16,307 connection.py _on_message     232 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":9,"path":"page_ji_shi/qiangDan/qiangDan","query":{},"openType":"switchTab"},1634890516304]}}
+INFO  2021-10-22 16:15:16,310 app.py     _on_route_changed 446 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'page_ji_shi/qiangDan/qiangDan', 'query': {}, 'openType': 'switchTab'}, 1634890516304]}
+DEBUG 2021-10-22 16:15:16,311 connection.py _on_message     232 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":9,"path":"page_ji_shi/qiangDan/qiangDan","query":{},"openType":"switchTab"},1634890516304]}}
+DEBUG 2021-10-22 16:15:16,312 connection.py _on_message     232 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":9,"path":"page_ji_shi/qiangDan/qiangDan","query":{},"openType":"switchTab"},1634890516304]}}
+INFO  2021-10-22 16:15:16,315 app.py     _on_route_changed 446 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'page_ji_shi/qiangDan/qiangDan', 'query': {}, 'openType': 'switchTab'}, 1634890516304]}
+WARNI 2021-10-22 16:15:16,316 app.py     relaunch        304 ReLaunch(/commonPage/logo/logo) but(/page_ji_shi/qiangDan/qiangDan)
+INFO  2021-10-22 16:15:16,317 app.py     _on_route_changed 446 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'page_ji_shi/qiangDan/qiangDan', 'query': {}, 'openType': 'switchTab'}, 1634890516304]}
+INFO  2021-10-22 16:15:16,324 minitest.py capture         898 capture setup.png
+DEBUG 2021-10-22 16:15:16,325 connection.py send            183 SEND > {"id":"02745086-1613-457a-af35-9ac43a0aaa2f","method":"App.captureScreenshot","params":{}}
+DEBUG 2021-10-22 16:16:14,012 connection.py _on_message     232 RECV < {"method":"App.initialized","params":{}}
+DEBUG 2021-10-22 16:16:14,013 connection.py _on_message     232 RECV < {"method":"App.initialized","params":{}}
+DEBUG 2021-10-22 16:16:14,014 connection.py _on_message     232 RECV < {"method":"App.initialized","params":{}}
+DEBUG 2021-10-22 16:16:16,325 connection.py _receive_response 209 rewait for 02745086-1613-457a-af35-9ac43a0aaa2f
+DEBUG 2021-10-22 16:16:17,165 minitest.py _miniTearDown   862 =========Current case Down：test_case_01=========
+INFO  2021-10-22 16:16:17,169 minitest.py capture         898 capture teardown.png
+DEBUG 2021-10-22 16:16:17,170 connection.py send            183 SEND > {"id":"acaac1ec-bbba-4508-949f-b17e54c6a99f","method":"App.captureScreenshot","params":{}}
+DEBUG 2021-10-22 16:17:17,169 connection.py _receive_response 209 rewait for acaac1ec-bbba-4508-949f-b17e54c6a99f
+ERROR 2021-10-22 16:17:17,671 minitest.py _miniTearDown   874 [call App.captureScreenshot] receive from remote timeout, id: acaac1ec-bbba-4508-949f-b17e54c6a99f
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\minium-1.2.1-py3.9.egg\minium\framework\minitest.py", line 870, in _miniTearDown
+    self.capture("teardown")
+  File "D:\Python\lib\site-packages\minium-1.2.1-py3.9.egg\minium\framework\minitest.py", line 899, in capture
+    self.native.screen_shot(path)
+  File "D:\Python\lib\site-packages\minium-1.2.1-py3.9.egg\minium\native\wx_native\idenative.py", line 28, in screen_shot
+    self.mini.app.screen_shot(filename, return_format)
+  File "D:\Python\lib\site-packages\minium-1.2.1-py3.9.egg\minium\miniprogram\base_driver\minium_log.py", line 135, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\Python\lib\site-packages\minium-1.2.1-py3.9.egg\minium\miniprogram\base_driver\app.py", line 131, in screen_shot
+    b64_data = self.connection.send("App.captureScreenshot").get("result").get("data")
+  File "D:\Python\lib\site-packages\minium-1.2.1-py3.9.egg\minium\miniprogram\base_driver\connection.py", line 185, in send
+    return self._receive_response(cmd)
+  File "D:\Python\lib\site-packages\minium-1.2.1-py3.9.egg\minium\miniprogram\base_driver\connection.py", line 214, in _receive_response
+    raise MiniTimeoutError(
+minium.framework.exception.MiniTimeoutError: [call App.captureScreenshot] receive from remote timeout, id: acaac1ec-bbba-4508-949f-b17e54c6a99f
+ERROR 2021-10-22 16:17:17,695 assertbase.py _teardown_collect 265 <bound method DemoTest.test_case_01 of <Demo.DemoTest testMethod=test_case_01>>
+Traceback (most recent call last):
+  File "D:\Python\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "D:\Python\lib\site-packages\minium-1.2.1-py3.9.egg\minium\framework\libs\unittest\case.py", line 73, in run
+    self._miniSetUp()
+  File "D:\Python\lib\site-packages\minium-1.2.1-py3.9.egg\minium\framework\minitest.py", line 666, in _miniSetUp
+    self.capture("setup")
+  File "D:\Python\lib\site-packages\minium-1.2.1-py3.9.egg\minium\framework\minitest.py", line 899, in capture
+    self.native.screen_shot(path)
+  File "D:\Python\lib\site-packages\minium-1.2.1-py3.9.egg\minium\native\wx_native\idenative.py", line 28, in screen_shot
+    self.mini.app.screen_shot(filename, return_format)
+  File "D:\Python\lib\site-packages\minium-1.2.1-py3.9.egg\minium\miniprogram\base_driver\minium_log.py", line 135, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\Python\lib\site-packages\minium-1.2.1-py3.9.egg\minium\miniprogram\base_driver\app.py", line 131, in screen_shot
+    b64_data = self.connection.send("App.captureScreenshot").get("result").get("data")
+  File "D:\Python\lib\site-packages\minium-1.2.1-py3.9.egg\minium\miniprogram\base_driver\connection.py", line 185, in send
+    return self._receive_response(cmd)
+  File "D:\Python\lib\site-packages\minium-1.2.1-py3.9.egg\minium\miniprogram\base_driver\connection.py", line 214, in _receive_response
+    raise MiniTimeoutError(
+minium.framework.exception.MiniTimeoutError: [call App.captureScreenshot] receive from remote timeout, id: 02745086-1613-457a-af35-9ac43a0aaa2f
